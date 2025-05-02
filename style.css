@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Creepster', cursive;
+  background-color: #000;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff000080;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.8;
+}
+
+.game-text {
+  margin-bottom: 30px;
+}
+
+
+.game-container {
+  border: 2px solid #444;
+  padding: 20px;
+  background-color: #111;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 0 20px red;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ff3333;
+}
+
+.game-text {
+  background-color: #222;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+  font-size: 1.2em;
+}
+
+.choices button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #666;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.choices button:hover {
+  background-color: #ff3333;
+  border-color: #ff0000;
+}
+
+button {
+  padding: 12px 24px;
+  margin: 10px 5px;
+  font-size: 20px;
+  font-family: 'Creepster', cursive;
+  background-color: #1a1a1a;
+  color: #ff0000;
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff000066;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #330000;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff0000aa;
+}
