@@ -42,10 +42,17 @@ function leftHallway() {
 function rightHallway() {
   hasKey = true;
   sawMessage = true;
-  show("You found a rusty key and entered a secret room. On the wall, a message reads: 'The password lies in the word that opens everything.'", [
-    { text: "Return to Hallway", action: startGame }
-  ]);
+  show(
+    `You found a rusty key and entered a secret room. On the wall, a message reads:<br><br>
+    "The password lies in the word that opens everything."<br>
+    Only the brave pass.<br>
+    People fear me.<br>
+    Enter at your own risk.<br>
+    Never give up."`,
+    [{ text: "Return to Hallway", action: startGame }]
+  );
 }
+
 
 function upstairs() {
   if (readBook) {
